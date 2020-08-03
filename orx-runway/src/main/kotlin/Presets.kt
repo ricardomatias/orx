@@ -7,6 +7,11 @@ class AttnGANRequest(val caption: String)
 
 class AttnGANResult(val result: String)
 
+// -- AttnGAN
+class BASNETRequest(val image: String)
+
+class BASNETResult(val image: String)
+
 // -- BDCN
 class BdcnRequest(val input_image: String)
 
